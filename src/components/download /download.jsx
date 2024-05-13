@@ -39,14 +39,14 @@ const download = () => {
     <>
       {!isMobile ? (
         <motion.section
-          id="ПОСЛУГИ"
+          id="USŁUGI"
           variants={container}
           {...set}
           className="grid place-items-center mt-[13rem] px-8 mb-10">
           <motion.h1
             variants={item(0.3)}
             className="heading text-center">
-            Наші послуги та ціні
+            Nasze usługi i ceny
           </motion.h1>
 
           <motion.div
@@ -95,7 +95,7 @@ const download = () => {
           <motion.h1
             variants={item(0.3)}
             className="heading text-center mb-5">
-            Наші послуги та ціні
+            Nasze usługi i ceny
           </motion.h1>
 
           <Swiper

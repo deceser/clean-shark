@@ -30,14 +30,32 @@ const hero = () => {
           <motion.h1
             variants={item(0.5)}
             className="text-5xl font-medium">
-            Акула
+            Akula czystości
           </motion.h1>
           <motion.p
             variants={item(0.7)}
             className="paraf">
-            якись текст рандомний про вас якись текст рандомний про вас якись текст рандомний про вас якись текст
-            рандомний про вас якись текст рандомний про вас якись текст рандомний про вас якись текст рандомний про вас
-            якись текст рандомний про вас
+            Oferujemy czyszczenie chemiczne mebli i czyszczenie zasłon, rolet, namiotów
+          </motion.p>
+          <motion.p
+            variants={item(0.7)}
+            className="paraf">
+            -Wszystkie rodzaje tapicerki (od materiałów syntetycznych po naturalne tkaniny)
+          </motion.p>
+          <motion.p
+            variants={item(0.7)}
+            className="paraf">
+            -Mocny sprzęt (pompa 9 bar) Santoemma, Chemspec
+          </motion.p>
+          <motion.p
+            variants={item(0.7)}
+            className="paraf">
+            -Usuwanie plam bezpiecznie dla mebli
+          </motion.p>
+          <motion.p
+            variants={item(0.7)}
+            className="paraf">
+            -Usuwanie pleśni z namiotów
           </motion.p>
         </motion.div>
       </HeroText>

@@ -12,7 +12,7 @@ const navbar = () => {
   const [showNav, setShowNav] = useState(false);
 
   // make array of title menu for navigation bar
-  const menus = ['ПРИКЛАДИ РОБІТ', 'ПОСЛУГИ', 'КОНТАКТИ'];
+  const menus = ['PRÓBKI PRAC', 'USŁUGI', 'KONTAKT'];
 
   // toggle a state to show or hide the mobileNav menu modal
   const toggleNav = () => {

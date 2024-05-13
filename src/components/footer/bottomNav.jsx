@@ -2,7 +2,7 @@ import logo from '../../assets/images-shark/shark-2.jpg';
 import Social from '../ui/social';
 
 const bottomNav = () => {
-  const menus = ['ПРИКЛАДИ РОБІТ', 'ПОСЛУГИ', 'КОНТАКТИ'];
+  const menus = ['PRÓBKI PRAC', 'USŁUGI', 'KONTAKT'];
 
   return (
     <div className="flex  justify-between items-center max-md:flex-col text-[1rem] px-8 pt-[2.0625rem] pb-[1.875rem] border-t-2">
@@ -12,14 +12,14 @@ const bottomNav = () => {
           alt="Bookmark Logo"
           className="object-cover w-14"
         />
-        {menus.map((menu) => (
+        {/* {menus.map((menu) => (
           <a
             href={menu}
             key={menu}
             className="hover:text-red-400 smooth">
             {menu}
           </a>
-        ))}
+        ))} */}
       </nav>
       <Social />
     </div>
