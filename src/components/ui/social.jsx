@@ -23,7 +23,7 @@ const social = ({ hidden }) => {
       </a>
 
       <a href="tel:+48787830865">
-        <FaPhone size={30} />
+        <FaPhone size={25} />
       </a>
     </div>
   );

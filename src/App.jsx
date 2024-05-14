@@ -10,10 +10,10 @@ function App() {
     <>
       <Navbar />
       <div className="flex-col font-rubik">
+        <Faq />
         <Hero />
         <Features />
         <Download />
-        <Faq />
       </div>
       <Footer />
     </>
