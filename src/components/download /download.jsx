@@ -1,10 +1,19 @@
 import React from 'react';
 
-import price1 from '../../assets/price/price-1.jpg';
-import price2 from '../../assets/price/price-2.jpg';
-import price3 from '../../assets/price/price-3.jpg';
-import price4 from '../../assets/price/price-4.jpg';
-import price5 from '../../assets/price/price-5.jpg';
+// import price1 from '../../assets/price/price-1.jpg';
+// import price2 from '../../assets/price/price-2.jpg';
+// import price3 from '../../assets/price/price-3.jpg';
+// import price4 from '../../assets/price/price-4.jpg';
+// import price5 from '../../assets/price/price-5.jpg';
+
+import price1 from '../../assets/price/new-price-1.jpg';
+import price2 from '../../assets/price/new-price-2.jpg';
+import price3 from '../../assets/price/new-price-3.jpg';
+import price4 from '../../assets/price/new-price-4.jpg';
+import price5 from '../../assets/price/new-price-5.jpg';
+import price6 from '../../assets/price/new-price-6.jpg';
+import price7 from '../../assets/price/new-price-7.jpg';
+import price8 from '../../assets/price/new-price-8.jpg';
 
 import Card from './card';
 
@@ -87,11 +96,34 @@ const download = () => {
               version="46"
               // flex="self-end md:mt-[4.75rem] lg:self-start"
               delay={1.5}
+            />{' '}
+            <Card
+              img={price6}
+              platform="Opera"
+              version="46"
+              // flex="self-end md:mt-[4.75rem] lg:self-start"
+              delay={1.5}
+            />{' '}
+            <Card
+              img={price7}
+              platform="Opera"
+              version="46"
+              // flex="self-end md:mt-[4.75rem] lg:self-start"
+              delay={1.5}
+            />{' '}
+            <Card
+              img={price8}
+              platform="Opera"
+              version="46"
+              // flex="self-end md:mt-[4.75rem] lg:self-start"
+              delay={1.5}
             />
           </motion.div>
         </motion.section>
       ) : (
-        <div className="py-6 px-2">
+        <div
+          className="py-6 px-2"
+          id="USŁUGI">
           <motion.h1
             variants={item(0.3)}
             className="heading text-center mb-5">
@@ -133,6 +165,27 @@ const download = () => {
             <SwiperSlide>
               <img
                 src={price5}
+                alt="platform"
+                className="object-cover w-full h-96 mx-auto"
+              />
+            </SwiperSlide>
+            <SwiperSlide>
+              <img
+                src={price6}
+                alt="platform"
+                className="object-cover w-full h-96 mx-auto"
+              />
+            </SwiperSlide>
+            <SwiperSlide>
+              <img
+                src={price7}
+                alt="platform"
+                className="object-cover w-full h-96 mx-auto"
+              />
+            </SwiperSlide>
+            <SwiperSlide>
+              <img
+                src={price8}
                 alt="platform"
                 className="object-cover w-full h-96 mx-auto"
               />

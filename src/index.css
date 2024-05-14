@@ -14,7 +14,7 @@
 }
 
 .paraf {
-  @apply text-grayfishblue my-6 max-w-[47ch];
+  @apply text-black my-6 max-w-[47ch];
 }
 
 .bg-1,
